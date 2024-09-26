@@ -240,3 +240,35 @@ label>button{
 }
 
 
+/* footer */
+.main-footer{
+    max-width: 1050px;
+    background-color: rgb(5, 1, 16);
+    padding: 50px;
+    margin-top: 50px;
+}
+.footer-pic{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+
+    color:#fff ;
+}
+/* footer-social */
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding: 10px;
+}
+.copy-right{
+    display: flex;
+    color:#fff;
+    justify-content: space-between;
+    font-size: 20px;
+}
