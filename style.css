@@ -38,3 +38,205 @@
     font-size: 20px;
     margin: 0 auto;
 }
+
+/* set-image main section */
+
+.set-image{
+    margin-top: 50px;
+}
+
+.image-parent{
+    position: relative;
+}
+.image-child{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.image-text{
+    width:500px;
+    position: absolute;
+    color: #fff;
+    top: 15%;
+    left:10%
+}
+
+.btn-primary{
+   border: 0;
+}
+
+.venu{
+    background-color: bisque;
+    max-width: 1050px;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.venu-text{
+position: absolute;
+top: 30%;
+left: 40%;
+}
+
+.venu-color{ color: red;}
+.btn{
+    background-color: red;
+    color: #fff;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.offer{
+    margin-top: 50px;
+}
+.red-design{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    border-radius: 50%;
+}
+
+
+.red-background{
+    position: relative;
+    max-width: 33%;
+    margin-top:50px ;
+
+}
+.ellip-image{
+position: absolute;
+
+
+/* top:0;
+right: -50%; */
+top: 50%;
+left: 60%;
+margin: -85px 5px 0px -25px;
+}
+.holyday1{max-width: 33%;}
+.holyday3{max-width:34% ;}
+
+
+.holyday-design{
+    width: 1050px;
+    background-color: rgb(159, 167, 167);
+    display:flex;
+    /* margin:0 auto ; */
+    justify-content: space-around;
+}
+/* sale offer 50% */
+.sale-offer{
+    max-width: 1050px;
+     height: 700px;
+    background-color: bisque;
+    margin-top: 50px;
+     
+   
+    
+
+}
+.sale-title{
+    text-align: center;
+    padding:20px
+}
+
+.sale-description{
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* offer image */
+.offer-design{
+background-color:aquamarine ;
+}
+.line-image{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content:center ; */
+    position: relative;
+    background-color:aquamarine ;
+}
+
+.offer-pic1{
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+}
+.offer-pic2{
+    position: absolute;
+    margin-top: 330px;
+    z-index: 1;
+}
+
+.offer-pic3{
+    position: absolute;
+    z-index: 3;
+}
+.offer-pic4{
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    
+}
+
+.product{
+   
+}
+.prodeuct-detail{
+    width:500px ;
+    padding:30px ;
+}
+
+product-pic{width:350px}
+.product-image1{
+    display: flex;
+}
+
+.news-div{
+    width:1050px;
+    margin: auto;
+    background-color: bisque;
+}
+.news-section{
+    width:65% ;
+   
+    padding: 30px 50px;
+    margin:auto;
+text-align: center;
+}
+
+
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    position: relative;
+}
+label>input{
+    border: none;
+    padding: 10px;
+    width: 330px;
+    border-radius: 50px;
+}
+label>button{
+    position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+    border: none;
+    background-color:red ;
+    color: #fff;
+    
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+  
+}
+
+
